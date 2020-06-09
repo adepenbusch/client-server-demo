@@ -17,8 +17,8 @@ app.use((_req, res, next) => {
   next();
 });
 
-app.get(`${routes.PRODUCTS}`, getProducts);
-app.put(`${routes.PRODUCTS}`, putProduct);
+//app.get(`${routes.PRODUCTS}`, getProducts);
+//app.put(`${routes.PRODUCTS}`, putProduct);
 
 // export our app
 export default app;
